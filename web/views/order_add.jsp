@@ -15,7 +15,6 @@
                     <c:import url="/inc/form_order.jsp" />
                     
                 </fieldset>
-                <input type="submit" value="Valider"  />
-                <input type="reset" value="Remettre à zéro" /> <br />
+                <input type="submit" value="Valider"  class="btn btn-default"/>
             </form>
         </div>
