@@ -10,7 +10,7 @@
             <legend>Connexion</legend>
             <p>Vous pouvez vous connecter via ce formulaire.</p>
             <c:import url="/inc/form_user.jsp" />
-            <input type="submit" value="Connexion" class="sansLabel" />
+            <input type="submit" value="Connexion"  class="btn btn-default"/>
             <br />
             <p class="${empty form.errors ? 'succes' : 'error'}">${form.result}</p>
             

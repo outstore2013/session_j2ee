@@ -9,6 +9,6 @@
                 <legend>Inscription</legend>
                 <c:import url="/inc/form_customer.jsp" />
                 <br />
-                <input type="submit" value="Inscription" class="sansLabel" />                
+                <input type="submit" value="Inscription"  class="btn btn-default"/>              
             </fieldset>
 </form>

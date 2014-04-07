@@ -5,11 +5,14 @@
 --%>
 <%@ page pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<label for="nom">Adresse email <span class="requis">*</span></label>
-<input type="email" id="email" name="email" value="<c:out value="${user.email}"/>" size="20" maxlength="60" />
-<span class="erreur">${form.errors['email']}</span>
+<div class="form-group">
+    <label for="nom">Adresse email <span class="requis">*</span></label>
+    <input type="email" id="email" name="email" value="<c:out value="${user.email}"/>" size="20" maxlength="60" />
+    <span class="erreur">${form.errors['email']}</span>
+</div>
 
-
-<label for="password">Mot de passe <span class="requis">*</span></label>
-<input type="password" id="password" name="password" value="" size="20" maxlength="20" />
-<span class="erreur">${form.errors['password']}</span>
+<div class="form-group">
+    <label for="password">Mot de passe <span class="requis">*</span></label>
+    <input type="password" id="password" name="password" value="" size="20" maxlength="20" />
+    <span class="erreur">${form.errors['password']}</span>
+</div>

@@ -9,8 +9,7 @@
         <fieldset>
             <legend>Informations client</legend>
             <c:import url="/inc/form_customer.jsp" />
-            <input type="submit" value="Valider"  />
-            <input type="reset" value="Remettre à zéro" /> <br />
+            <input type="submit" value="Valider"  class="btn btn-default"/>
         </fieldset>            
     </form>
 </div>
